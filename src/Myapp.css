@@ -1,0 +1,315 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400&display=swap');
+
+/* Register CSS */
+.fontwhite {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color: #1D1D1D;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.subject {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.54);
+    padding-bottom: 20px;
+}
+
+.bg-color {
+    -webkit-box-shadow: -1px 32px 28px -32px rgba(0,0,0,0.39);
+    -moz-box-shadow: -1px 32px 28px -32px rgba(0,0,0,0.39);
+    box-shadow: -1px 32px 28px -32px rgba(0,0,0,0.39);
+}
+
+.youremail {
+    text-align: center;
+    font-size: small;
+    color: #1E1E1F;
+}
+
+.input {
+    width: 65%;
+    padding-left: 10px;
+}
+
+.btn-regis {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 20px 8px 20px;
+    background-color: black;
+    font-weight: medium;
+    font-size: small;
+    color: white;
+}
+
+.signin {
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #353537;
+    margin-bottom: 40px;
+}
+
+.termpriv {
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #939396;
+    margin-bottom: 20px;
+}
+
+/* Login CSS */
+
+.fontwhite-log {
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    color: #1D1D1D;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.subject-log {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 9%;
+    font-size: small;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.54);
+    padding-bottom: 20px;
+}
+
+.bg-shadow {
+    -webkit-box-shadow: -1px 8px 57px -31px rgba(0,0,0,0.39);
+    -moz-box-shadow: -1px 8px 57px -31px rgba(0,0,0,0.39);
+    box-shadow: -1px 8px 57px -31px rgba(0,0,0,0.39);
+}
+
+.input-log {
+    width: 60%;
+    padding-left: 10px;
+}
+
+
+.signin-log {
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #353537;
+    margin-bottom: 30px;
+}
+
+.termpriv-log {
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(2, 158, 116, 1);
+    text-align: center;
+}
+
+.noborder {
+    text-decoration: none;
+}
+
+/* HOME CSS */
+
+.logo {
+    font-family: mono;
+}
+
+.space {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu-item {
+    padding: 0 10px;
+    margin: 5px 5px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    font-size: 13px;
+  }
+  
+  .scroll-menu-arrow {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .noborder {
+    text-decoration: none;
+    color: #03a87c!important;
+    fill: #03a87c!important;
+    font-size: 13px;
+  }
+
+  .sub-img {
+    margin-left: 25px;
+    margin-top: 0px;
+    font-weight: bold;
+    padding-bottom: 10;
+  }
+
+  .popular {
+    font-family: 'Muli', sans-serif;
+    color: rgba(0,0,0,.84)!important;
+    font-size: 22px;
+    margin-top: 90px;
+    margin-left: 25px;
+    padding: 10px;
+  }
+
+.title-blog {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0,0,0,.54)!important;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cat-blog {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Number {
+  font-family: 'Noto Sans', sans-serif;
+  margin-left: 36px;
+  color: rgba(0,0,0,.15)!important;
+  font-size: 30px;
+}
+
+.category {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 35px;
+  font-size: 16px;
+  color: rgba(0,0,0,.84)!important;
+}
+
+.footer-title{
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  color: rgba(0,0,0,.54)!important;
+}
+
+/* DropDown */
+
+.dropbtn {
+  color: transparent;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  width: 160px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.become {
+  font-size: small;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(2, 158, 116, 1);
+  margin-left: 20px;
+}
+
+.dropdown-text {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.dropdown-text:hover {
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.bg-Nav {
+  -webkit-box-shadow: -7px 88px 67px -36px rgba(0,0,0,0.31);
+  -moz-box-shadow: -7px 88px 67px -36px rgba(0,0,0,0.31);
+  box-shadow: -7px 88px 67px -36px rgba(0,0,0,0.31);
+}
+
+.title-cat {
+  margin: 0px;
+  font-family: "Titillium Web";
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.subtitle-cat {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+
+}
+
+.bg-s {
+  -webkit-box-shadow: -1px 10px 18px -22px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 10px 18px -22px rgba(0,0,0,0.75);
+  box-shadow: -1px 10px 18px -22px rgba(0,0,0,0.75);
+}
+
+.border-R {
+  border-right: 1 solid rgba(0, 0, 0, 0.1);
+}
+
+topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #8C8C8B;
+  text-align: center;
+  padding: 14px 16px 20px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
